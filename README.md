@@ -1,7 +1,7 @@
 # SriptingInBash
 ## The firsts scripts in Bash.
 ------------------------------------------------------------------------------------------------------------------------
-**The following steps to code, verify and excute a script:**
+**The following steps to code, verify and execute a script:**
 
 1. Code with VIM editor. "$ vim nameofscript.sh"
 2. Verify in bash with: "$ cat nameofscript.sh"
@@ -14,12 +14,13 @@
 
 #### 1 LAB: 
 
-**Develop a script that compare three numbers and return the lower number.**
+**Develop a script that compare three numbers for returning the lower number and the highest number.**
 
 
 
 1. $ cat lowernumber.sh 
 
+##
 #!/bin/bash
 
 n1=1
@@ -37,14 +38,33 @@ elif [ $n1 -lt $n2 ] && [ $n1 -lt $n3 ]; then
 
 fi
 
+n4=2652
+n5=12
+n6=-23
 
+if [ $n5 -gt $n4 ] && [ $n5 -gt $n6 ]; then
+      echo "The number $n5 is the highest."
+
+elif [ $n6 -gt $n4 ] && [ $n6 -gt $n5 ]; then
+        echo "The number $n6 is the highest."
+
+elif [ $n4 -gt $n5 ] && [ $n4 -gt $n6 ]; then
+        echo "The number $n4 is the highest."
+
+fi
+## 
 
 2. $ ./lowernumber.sh
+
 Output:
+
 The number 1 is the lowest.
 
 ------------------------------------------------------------------------------------------------------------------------
 
+### LAB 2:
+
+#### 
 
 
 
