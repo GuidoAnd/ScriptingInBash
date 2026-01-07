@@ -3,24 +3,24 @@
 ------------------------------------------------------------------------------------------------------------------------
 **The following steps to code, verify and execute a script:**
 
-1. Code with VIM editor. "$ vim nameofscript.sh"
-2. Verify in bash with: "$ cat nameofscript.sh"
-3. Give the excution permitions "$ sudo chmod +x nameofscript.sh"
+1. Code with VIM editor. 
+2. Give the execution permitions
+3. Verify
 4. Run the script "$ ./nameofscript.sh" 
 
 -----------------------------------------------------------------------------------------------------------------------
 
-### Scripts with IF: 
+### Script with IF statement:   
 
-#### 1 LAB: 
+#### 1 LAB: Example:
 
 **Develop a script that compare three numbers for returning the lower number and the highest number.**
 
 
 
-1. $ cat lowernumber.sh 
+1. *$vim lowernumber.sh 
 
-##
+
 #!/bin/bash
 
 n1=1
@@ -52,20 +52,28 @@ elif [ $n4 -gt $n5 ] && [ $n4 -gt $n6 ]; then
         echo "The number $n4 is the highest."
 
 fi
-## 
 
-2. $ ./lowernumber.sh
+
+2. *$ sudo chmod 755 lowernumber.sh*
+   
+'755' this flag gives complete permission set to run a script..
+
+
+3. *$ cat lowernumber.sh 
+     ...
+     ..
+     .   
+
+   *$ ls -l lowernumber.sh
+      rwxr-xr-x 1 x x 357 Jan  7 13:16 lab2/chains.sh
+
+
+4. $ ./lowernumber.sh
+
 
 Output:
 
-The number 1 is the lowest.
+**The number 1 is the lowest.**
 
 ------------------------------------------------------------------------------------------------------------------------
-
-### LAB 2:
-
-#### 
-
-
-
 
