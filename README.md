@@ -1,12 +1,12 @@
-# SriptingInBash
+# Scripting In Bash 
 ## The firsts scripts in Bash.
 ------------------------------------------------------------------------------------------------------------------------
 **The following steps to code, verify and execute a script:**
 
 1. Code with VIM editor. 
-2. Give the execution permitions
-3. Verify
-4. Run the script "$ ./nameofscript.sh" 
+2. Give the execution permitions.
+3. Verify.
+4. Run the script. 
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -18,7 +18,7 @@
 
 
 
-1. *$vim lowernumber.sh 
+1. *$vim lowernumber.sh* 
 
 
 #!/bin/bash
@@ -59,7 +59,7 @@ fi
 '755' this flag gives complete permission set to run a script..
 
 
-3. *$ cat lowernumber.sh 
+3. *$ cat lowernumber.sh* 
      ...
      ..
      .   
@@ -68,7 +68,7 @@ fi
       rwxr-xr-x 1 x x 357 Jan  7 13:16 lab2/chains.sh
 
 
-4. $ ./lowernumber.sh
+4. *$ ./lowernumber.sh*
 
 
 Output:
